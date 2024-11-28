@@ -29,7 +29,7 @@ public class StandAloneTest extends BaseTest
 {
 	
 	String productName = "ZARA COAT 3";
-	String countryname = "India";
+	String countryname = "India123";
 	@Test(dataProvider="getData",groups="purchaseorder")
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException
 	{
